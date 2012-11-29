@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tablecontents PUBLIC "-//Dawson Books//Table of Contents XML DTD v1.0//EN" "http://www.dawsonbooks.co.uk/era/dawson-TOC.dtd">
+<tablecontents>
+<eisbn13>9780596528706</eisbn13>
+<copyright>Copyright &#x00A9; 2001 O&#x0027;Reilly &#x0026; Associates</copyright>
+<initial-page>3</initial-page>
+<toc>
+<toc-item logical-page-no="v" physical-page-no="5" lang="eng">
+<head-group>
+<enumerator/>
+<head>Contents</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="2" physical-page-no="8" lang="eng">
+<head-group>
+<enumerator/>
+<head>JSP Processing</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="4" physical-page-no="10" lang="eng">
+<head-group>
+<enumerator/>
+<head>Directive Elements</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="7" physical-page-no="13" lang="eng">
+<head-group>
+<enumerator/>
+<head>Standard Action Elements</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="18" physical-page-no="24" lang="eng">
+<head-group>
+<enumerator/>
+<head>Comments</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="19" physical-page-no="25" lang="eng">
+<head-group>
+<enumerator/>
+<head>Escape Characters</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="20" physical-page-no="26" lang="eng">
+<head-group>
+<enumerator/>
+<head>Scripting Elements</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="24" physical-page-no="30" lang="eng">
+<head-group>
+<enumerator/>
+<head>Implicit Objects</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="47" physical-page-no="53" lang="eng">
+<head-group>
+<enumerator/>
+<head>Custom Actions</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="73" physical-page-no="79" lang="eng">
+<head-group>
+<enumerator/>
+<head>Creating a Tag Library Descriptor</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="78" physical-page-no="84" lang="eng">
+<head-group>
+<enumerator/>
+<head>Packaging and Installing a Tag Library</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="80" physical-page-no="86" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Web Archive (WAR) File</head>
+</head-group>
+</toc-item>
+</toc>
+</tablecontents>

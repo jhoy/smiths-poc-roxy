@@ -1,0 +1,51 @@
+<i:report xmlns:i="http://marklogic.com/roxy/importer">
+ <i:meta>
+  <i:source-archive>
+   <i:formatmime>application/zip</i:formatmime>
+   <i:uri>/zips/myzip.zip</i:uri>
+   <i:files>
+    <i:file>
+     <i:name>somefile.xml</i:name>
+     <i:archive-path>/zip/path/somefile.xml</i:archive-path>
+     <i:uri>/somezip/somefile.xml</i:uri>
+    </i:file>
+    ...
+   </i:files>
+  </i:source-archive>
+  <i:import-date>Some W3C date here</i:import-date>
+  <i:import-user>admin</i:import-user>
+  <i:status>unprocessed</i:status>
+ </i:meta>
+ 
+ <i:use-meta-mappings>
+  <i:use-meta-mapping order="1">Default-ONIX3.0</use-meta-mapping>
+  <i:use-meta-mapping order="2">/mappings/adams-to-onix.xml</i:use-meta-mapping>
+ </i:use-meta-mappings>
+ 
+ <i:groups>
+  <i:group id="1234">
+   <i:metafiles>
+    <i:metafile>
+     <i:import-error>Some highly descriptive error here</i:import-error> <!-- Import error within here, as XML from error report -->
+     <i:formatns>ONIX3.0</i:formatns>
+     <i:uri>/somezip/somefile.xml</i:uri>
+     <i:generated-output> <!-- onix guessed/imported 3.0 xml goes here --> </i:generated-output>
+    </i:metafile>
+   </i:metafiles>
+   <i:contentfiles>
+    <i:contentfile>
+     <i:formatmime>application/epub</i:formatmime>
+     <i:uri>/somezip/somefile.epub</i:uri>
+     <i:output-isys-uri>/completed/somefile__epub__isys.xml</i:output-isys-uri> <!-- this is the output from ISYS that we index for search results. One per doc file. --> 
+    </i:content-file>
+    <i:contentfile>
+     <i:formatmime>application/pdf</i:formatmime>
+     <i:uri>/somezip/somefile.pdf</i:uri>
+     <i:output-isys-uri>/completed/somefile__pdf__isys.xml</i:output-isys-uri> <!-- this is the output from ISYS that we index for search results. One per doc file. -->
+    </i:content-file>
+   </i:contentfiles>
+   ...
+  </i:group>
+  ...
+ </i:groups>
+</i:report>

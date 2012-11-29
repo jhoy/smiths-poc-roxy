@@ -1,0 +1,479 @@
+/*
+	File:	bertrams.css
+	Site:	www.bertrams.com, Print
+	Author:	Ross Harvey, Web 9 Design
+*/
+
+body {
+	background: none transparent;
+	font-family : arial, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+#sidebar, #nav_tile, #nav_tile2, #adbar, #topbar, #breadcrumbRow, img.banner_advert, .invoiceDetailNav {
+	display: none;
+}
+
+#content {
+	float: none !important;	
+	width: auto;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#breadcrumb {
+	display: none;
+}
+
+/* Logo */
+#breadcrumb img {
+	float: left;
+	margin-right: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 16pt;
+	font-weight: normal;
+	font-family : arial, "Times New Roman", Times, serif;
+}
+
+h1 {
+	border-bottom: 1px solid #000;
+}
+
+td {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#content tr.odd {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+#content tr.tableRowEven, #content tr.even {
+  background-color: #eaeaff;
+  border-bottom: 1px solid black;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.lastRow{
+	border-bottom: 1px solid black;	
+}
+
+#content tr.odd{
+	padding-bottom: 10px;
+}
+
+#content tr.even{
+	padding-bottom: 10px;	
+}
+
+a:link, a:visited {
+	background: transparent;
+	font-weight: bold;
+	text-decoration: none;
+	color: #520;
+}
+
+/* Postfixes links with the link URL 
+ #content a:link:after, #content a:visited:after { 
+   content: " (" attr(href) ") "; 
+   font-size: 90%; 
+ } */
+
+.item1, .item2 {
+	float: none;
+	margin: 1.5em 0;
+}
+
+/* Hide buttons on printouts */
+button.imgButton, button.imgBtnGreen, .noprint {
+	display: none;
+}
+
+.printnl {
+	text-align:right;
+}
+
+.align_right {
+	text-align: right;
+}
+
+/* Invoices on the web */
+#invoiceForm {
+  position: relative;
+}
+
+#invoiceForm input {
+  position: absolute;
+  left: 130px;
+}
+
+#invDateToLbl {
+  position: absolute; 
+  left: 240px;
+} 
+
+#invoiceForm input#invDateFrom {
+  position: absolute;
+  left: 130px;	
+}
+
+#invoiceForm input#invDateTo {
+  position: absolute;
+  left: 260px;	
+}
+
+#invDateFromCal {
+  position: absolute;
+  left: 210px;
+}
+
+#invDateToCal {
+  position: absolute;
+  left: 340px;
+}
+
+table.invHeader {
+  border-style: none;
+}
+
+.invoice {
+  margin: 0px 0px 0px 0px;
+  line-height: normal;
+  font-family: "Arial Narrow",Arial,Sans-Serif;
+  word-spacing: -1px;
+  width: 980px;
+}
+
+.invLogo {
+  width: 160px;
+  height: 35px;
+}
+
+.invPageHeader {
+  font-size: 8pt;
+  float: none;
+  clear: both;
+  height: 200px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.invPageHeader div, .invPageFooter1 div, .invPageFooter2 div {
+  position: absolute;
+  top: 0px;
+}
+
+.invHdrCol1 {
+  width: 165px;
+  padding-top: 40px;
+  left: 0px;
+}
+
+.invHdrCol2 {
+  width: 315px;
+  left: 165px;
+}
+
+.invHdrCol3 {
+  width: 275px;
+  left: 480px;
+}
+
+.invHdrCol4 {
+  width: 215px;
+  left: 755px;
+}
+
+.invAddrBox, .delAddrBox {
+  border: 1px solid black;
+  height: 90px;
+  padding: 5px;
+}
+
+.invAddrBox {
+  width: 255px;
+}
+
+.delAddrBox {
+  width: 250px;
+}
+
+.invoiceBox {
+  font-family: "Arial Black",Arial,Sans-Serif;
+  border: 1px solid black; 
+  text-align: center;
+  font-size: 10pt;
+}
+
+.invRight {
+  position: absolute;
+  right: 0px;
+}
+
+.invLeft {
+  position: absolute;
+  left: 80px;
+}
+
+.invColHeader {
+  text-align:center;
+  border: 1px solid black;
+}
+
+.invColHeader th {
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+#invoiceTable {
+  border-collapse: collapse;
+  empty-cells: show;
+  table-layout: fixed;
+  background: url('/images/invBackground.gif') top left repeat-y;
+}
+
+#invoiceTable tbody {
+  border: 1px solid black;
+}
+
+#invoiceTable tbody tr {
+  font-family: "Times New Roman",Serif;
+  font-size: 9pt;
+}
+
+#invoiceTable tbody tr td , .invColHeader {
+  padding: 1px 2px 1px 2px;
+  position: relative;
+}
+
+.invDtlCol1 {
+  width: 111px;
+}
+
+.invDtlCol2 {
+  width: 56px;
+}
+
+.invDtlCol3 {
+  width: 101px;
+}
+
+.invDtlCol4 {
+  width: 156px;
+}
+
+.invDtlCol5 {
+  width: 251px;
+}
+
+.invDtlCol6 {
+  width: 46px;
+  text-align: right;
+}
+
+.invDtlCol7 {
+  width: 31px;
+  text-align: right;
+}
+
+.invDtlCol8 {
+  width: 51px;
+  text-align: right;
+}
+
+.invDtlCol9 {
+  width: 51px;
+  text-align: right;
+}
+
+.invDtlCol10 {
+  width: 21px;
+}
+
+.invDtlCol11 {
+  width: 41px;
+}
+
+.invDtlCol12 {
+  width: 16px;
+}
+
+.invPageFooter1 {
+  font-size: 8pt;
+  float: none;
+  clear: both;
+  height: 95px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.invFtrCol1 {
+  width: 200px;
+  left: 0px;
+}
+
+.invFtrCol2 {
+  width: 225px;
+  left: 200px;
+}
+
+.invFtrCol3 {
+  width: 250px;
+  left: 425px;
+}
+
+.invFtrCol4 {
+  width: 65px;
+  left: 675px;
+  font-weight: bold;
+}
+
+.invFtrCol5 {
+  width: 60px;
+  left: 740px;
+}
+
+.invFtrCol6 {
+  width: 85px;
+  left: 800px;
+  font-weight: bold;
+}
+
+.invFtrCol7 {
+  width: 55px;
+  left: 885px;
+}
+
+.invPageFooter2 {
+  font-size: 8pt;
+  float: none;
+  clear: both;
+  height: 30px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.invFtr2Col1 {
+  width: 600px;
+  left: 0px;
+}
+
+.invFtr2Col2 {
+  width: 320px;
+  right: 0px;
+  text-align: right;
+}
+
+@page { 
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 3cm;
+}
+
+/* MI Repots */
+.miRptForm {
+  padding: 5px 0px 5px 0px;
+}
+
+.miRptForm button {
+  position: relative;
+  top: 5px; 
+}
+
+
+table.basketReports {
+  border:1px solid black;
+  border-spacing: 1px;
+}
+
+table.basketReports th {
+    position: relative;
+	color: White;
+	padding: 4px;
+	text-align: center;
+	border:1px solid black;
+	background: #009B7B url("/images/th.gif") repeat-x top;
+}
+
+table.basketReports th.left {
+	text-align: left;
+}
+
+table.basketReports th.leftSort {
+	text-align: left;
+	background-image: url('/images/Sort.gif'); 
+	background-repeat: no-repeat;
+	background-position: 98% 50%; 
+	padding: 5px 2px 5px 1px;
+}
+
+#content th.leftSort a {
+	margin-right:10px;
+	display: block;
+	color: white;
+}
+
+table.basketReports th.leftOrder1 { 
+	text-align: left;
+	background-image: url('/images/Ascending.gif'); 
+	background-repeat: no-repeat;
+	background-position: 98% 50%; 
+	padding: 5px 2px 5px 1px;
+}
+table.basketReports th.leftOrder2 {
+	text-align: left;
+	background-image: url('/images/Descending.gif'); 
+	background-repeat: no-repeat;
+	background-position: 98% 50%; 
+	padding: 5px 2px 5px 1px;
+}
+
+table.basketReports th.leftOrder1 a { 
+	margin-right:10px;
+	display: block;
+	color: black;
+}
+table.basketReports th.leftOrder2 a {
+	margin-right:10px;
+	display: block;
+	color: black;
+}
+
+
+table.basketReports th.right {
+	text-align: right;
+}
+
+table.basketReports td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table.basketReports td.left {
+	text-align: left;
+}
+table.basketReports td.right {
+	text-align: right;
+}
+table.basketReports td.center {
+	text-align: center;
+}
+td.basketReportsLabel {
+	padding-right:50px;
+}
+td.basketReportsData {
+	font-weight:bold
+}

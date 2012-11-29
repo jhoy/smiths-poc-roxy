@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+    <Header>
+        <FromCompany>Wiley</FromCompany>
+        <FromPerson>Frank McDermott, (201)748-6185, fmcdermott@wiley.com</FromPerson>
+        <ToCompany>Addressee Company Name</ToCompany>
+        <ToPerson>Addressee Contact</ToPerson>
+        <SentDate>20120727</SentDate>
+    </Header>
+    <Product>
+        <RecordReference>1118376005</RecordReference>
+        <NotificationType>03</NotificationType>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9781118376003</IDValue>
+        </ProductIdentifier>
+        <ProductForm>DG</ProductForm>
+        <EpubType>002</EpubType>
+        <EpubTypeDescription>Acrobat Ebook Reader</EpubTypeDescription>
+        <EpubFormat>02</EpubFormat>
+        <Series>
+            <SeriesIdentifier>
+                <SeriesIDType>01</SeriesIDType>
+                <IDValue>7683</IDValue>
+            </SeriesIdentifier>
+            <TitleOfSeries>Wiley Series in Computational Mechanics</TitleOfSeries>
+        </Series>
+        <Title textcase="01">
+            <TitleType>01</TitleType>
+            <TitleText>Nonlinear Finite Element Analysis of Solids and Structures</TitleText>
+        </Title>
+        <WorkIdentifier>
+            <WorkIDType>15</WorkIDType>
+            <IDValue>9780470666449</IDValue>
+        </WorkIdentifier>
+        <Contributor>
+            <SequenceNumber>1</SequenceNumber>
+            <ContributorRole>A01</ContributorRole>
+            <PersonName>Ren&amp;eacute; De Borst</PersonName>
+            <PersonNameInverted>De Borst, Ren&amp;eacute;</PersonNameInverted>
+            <NamesBeforeKey>Ren&amp;eacute;</NamesBeforeKey>
+            <KeyNames>De Borst</KeyNames>
+            <ProfessionalAffiliation>
+                <Affiliation>Imperial College, London</Affiliation>
+            </ProfessionalAffiliation>
+        </Contributor>
+        <Contributor>
+            <SequenceNumber>2</SequenceNumber>
+            <ContributorRole>A01</ContributorRole>
+            <PersonName>Mike Crisfield</PersonName>
+            <PersonNameInverted>Crisfield, Mike</PersonNameInverted>
+            <NamesBeforeKey>Mike</NamesBeforeKey>
+            <KeyNames>Crisfield</KeyNames>
+        </Contributor>
+        <Contributor>
+            <SequenceNumber>3</SequenceNumber>
+            <ContributorRole>A01</ContributorRole>
+            <PersonName>Joris Remmers</PersonName>
+            <PersonNameInverted>Remmers, Joris</PersonNameInverted>
+            <NamesBeforeKey>Joris</NamesBeforeKey>
+            <KeyNames>Remmers</KeyNames>
+            <ProfessionalAffiliation>
+                <Affiliation>T U Eindhoven</Affiliation>
+            </ProfessionalAffiliation>
+        </Contributor>
+        <Contributor>
+            <SequenceNumber>4</SequenceNumber>
+            <ContributorRole>A01</ContributorRole>
+            <PersonName>Clemens Verhoosel</PersonName>
+            <PersonNameInverted>Verhoosel, Clemens</PersonNameInverted>
+            <NamesBeforeKey>Clemens</NamesBeforeKey>
+            <KeyNames>Verhoosel</KeyNames>
+        </Contributor>
+        <EditionNumber>2</EditionNumber>
+        <Language>
+            <LanguageRole>01</LanguageRole>
+            <LanguageCode>eng</LanguageCode>
+        </Language>
+        <NumberOfPages>304</NumberOfPages>
+        <BASICMainSubject>TEC006000</BASICMainSubject>
+        <BASICVersion>2011</BASICVersion>
+        <Subject>
+            <SubjectSchemeIdentifier>23</SubjectSchemeIdentifier>
+            <SubjectHeadingText>Mechanical Engineering - Design</SubjectHeadingText>
+        </Subject>
+        <AudienceCode>01</AudienceCode>
+        <OtherText>
+            <TextTypeCode>01</TextTypeCode>
+            <TextFormat>02</TextFormat>
+            <Text>&lt;p&gt;Built upon the two original books by Mike Crisfield and their own lecture notes, renowned scientist Ren&amp;eacute; de Borst and his team offer a thoroughly updated yet condensed edition that retains and builds upon the excellent reputation and appeal amongst students and engineers alike for which Crisfield's first edition is acclaimed.&lt;/p&gt;&lt;p&gt;Together with numerous additions and updates, the new authors have retained the core content of the original publication, while bringing an improved focus on new developments and ideas. This edition offers the latest insights in non-linear finite element technology, including non-linear solution strategies, computational plasticity, damage mechanics, time-dependent effects, hyperelasticity and large-strain elasto-plasticity.&lt;/p&gt;&lt;p&gt;The authors' integrated and consistent style and unrivalled engineering approach assures this book's unique position within the computational mechanics literature.&lt;/p&gt;&lt;p&gt;Key features:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Combines      the two previous volumes into one heavily revised text with obsolete      material removed, an improved layout and updated references and notations&lt;/li&gt;&lt;li&gt;Extensive      new material on more recent developments in computational mechanics&lt;/li&gt;&lt;li&gt;Easily      readable, engineering oriented, with no more details in the main text than      necessary to understand the concepts.&lt;/li&gt;&lt;li&gt;Pseudo-code      throughout makes the link between theory and algorithms, and the actual      implementation.&lt;/li&gt;&lt;li&gt;Accompanied      by a website (www.wiley.com/go/deborst) with a Python code, based on the      pseudo-code within the book and suitable for solving small-size problems. &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Non-linear Finite Element Analysis of Solids and Structures, 2nd Edition is an essential reference for practising engineers and researchers that can also be used as a text for undergraduate and graduate students within computational mechanics.&lt;/p&gt;</Text>
+        </OtherText>
+        <OtherText>
+            <TextTypeCode>04</TextTypeCode>
+            <TextFormat>02</TextFormat>
+            <Text>&lt;b&gt;Part One Basic Concepts and Solution Techniques 21&lt;/b&gt;&lt;p&gt;&lt;b&gt;1 Preliminaries 23&lt;/b&gt;&lt;p&gt;1.1 A simple example of non-linear behaviour 23&lt;p&gt;1.2 A review of concepts from linear algebra 25&lt;p&gt;1.3 Vectors and tensors 32&lt;p&gt;1.4 Stress and strain tensors 36&lt;p&gt;1.5 Elasticity 42&lt;p&gt;1.6 The PYFEM finite element library 44&lt;p&gt;Bibliography 48&lt;p&gt;&lt;b&gt;2 Non-linear finite element analysis 49&lt;/b&gt;&lt;p&gt;2.1 Equilibrium and virtual work 49&lt;p&gt;2.2 Spatial discretisation by finite elements 51&lt;p&gt;2.3 PyFEM: Shape function utilities 55&lt;p&gt;2.4 Incremental-iterative analysis 59&lt;p&gt;2.5 Load vs displacement control 68&lt;p&gt;2.6 PyFEM: A linear finite element code with displacement control 71&lt;p&gt;Bibliography 80&lt;p&gt;&lt;b&gt;3 Geometrically non-linear analysis 81&lt;/b&gt;&lt;p&gt;3.1 Truss elements 82&lt;p&gt;3.1.1 Total Lagrange formulation 85&lt;p&gt;3.1.2 Updated Lagrange formulation 88&lt;p&gt;3.1.3 Corotational formulation 89&lt;p&gt;3.2 PyFEM: The shallow truss problem 94&lt;p&gt;3.3 Stress and deformation measures in continua 103&lt;p&gt;3.4 Geometrically non-linear formulation of continuum elements 109&lt;p&gt;3.4.1 Total and Updated Lagrange formulations 109&lt;p&gt;3.4.2 Corotational formulation 113&lt;p&gt;3.5 Linear buckling analysis 117&lt;p&gt;3.6 PyFEM: A geometrically non-linear continuum element 119&lt;p&gt;Bibliography 127&lt;p&gt;&lt;b&gt;4 Solution techniques in quasi-static analysis 129&lt;/b&gt;&lt;p&gt;4.1 Line searches 129&lt;p&gt;2 Contents&lt;p&gt;4.2 Path-following or arc-length methods 132&lt;p&gt;4.3 PYFEM: Implementation of Riks&amp;#8217; arc-length solver 140&lt;p&gt;4.4 Stability and uniqueness in discretised systems 145&lt;p&gt;4.4.1 Stability of a discrete system 145&lt;p&gt;4.4.2 Uniqueness and bifurcation in a discrete system 146&lt;p&gt;4.4.3 Branch switching 150&lt;p&gt;4.5 Load stepping and convergence criteria 150&lt;p&gt;4.6 Quasi-Newton methods 153&lt;p&gt;Bibliography 156&lt;p&gt;&lt;b&gt;5 Solution techniques for non-linear dynamics 157&lt;/b&gt;&lt;p&gt;5.1 The semi-discrete equations 157&lt;p&gt;5.2 Explicit time integration 159&lt;p&gt;5.3 PYFEM: Implementation of an explicit solver 162&lt;p&gt;5.4 Implicit time integration 167&lt;p&gt;5.4.1 The Newmark family 167&lt;p&gt;5.4.2 The HHT _-method 168&lt;p&gt;5.4.3 Alternative implicit methods for time integration 169&lt;p&gt;5.5 Stability and accuracy in the presence of non-linearities 171&lt;p&gt;5.6 Energy-conserving algorithms 175&lt;p&gt;5.7 Time step size control and element technology 178&lt;p&gt;Bibliography 179&lt;p&gt;&lt;b&gt;Part Two Material Non-linearities 181&lt;/b&gt;&lt;p&gt;&lt;b&gt;6 Damage mechanics 183&lt;/b&gt;&lt;p&gt;6.1 The concept of damage 183&lt;p&gt;6.2 Isotropic elasticity-based damage 185&lt;p&gt;6.3 PYFEM: A plane-strain damage model 188&lt;p&gt;6.4 Stability, ellipticity, and mesh sensitivity 192&lt;p&gt;6.4.1 Stability, ellipticity, and mesh sensitivity 192&lt;p&gt;6.4.2 Mesh sensitivity 195&lt;p&gt;6.5 Cohesive-zone models 198&lt;p&gt;6.6 Element technology: Embedded discontinuities 203&lt;p&gt;6.7 Complex damage models 211&lt;p&gt;6.7.1 Anisotropic damage models 211&lt;p&gt;6.7.2 Microplane models 212&lt;p&gt;6.8 Crack models for concrete and other quasi-brittle materials 214&lt;p&gt;6.8.1 Elasticity-based smeared crack models 214&lt;p&gt;6.8.2 Reinforcement and tension stiffening 219&lt;p&gt;6.9 Regularised damage models 223&lt;p&gt;6.9.1 Non-local damage models 223&lt;p&gt;6.9.2 Gradient damage models 224&lt;p&gt;Bibliography 227&lt;p&gt;&lt;b&gt;7 Plasticity 231&lt;/b&gt;&lt;p&gt;Contents 3&lt;p&gt;7.1 A simple slip model 231&lt;p&gt;7.2 Flow theory of plasticity 235&lt;p&gt;7.2.1 Yield function 235&lt;p&gt;7.2.2 Flow rule 240&lt;p&gt;7.2.3 Hardening behaviour 244&lt;p&gt;7.3 Integration of the stress-strain relation 250&lt;p&gt;7.4 Tangent stiffness operators 261&lt;p&gt;7.5 Multi-surface plasticity 264&lt;p&gt;7.5.1 Koiter&amp;#8217;s generalisation 264&lt;p&gt;7.5.2 Rankine plasticity for concrete 267&lt;p&gt;7.5.3 Tresca and Mohr-Coulomb plasticity 272&lt;p&gt;7.6 Soil plasticity: Cam-clay model 279&lt;p&gt;7.7 Coupled damage-plasticity models 282&lt;p&gt;7.8 Element technology: volumetric locking 283&lt;p&gt;Bibliography 289&lt;p&gt;&lt;b&gt;8 Time-dependent material models 293&lt;/b&gt;&lt;p&gt;8.1 Linear visco-elasticity 293&lt;p&gt;8.1.1 One-dimensional linear visco-elasticity 293&lt;p&gt;8.1.2 Three-dimensional visco-elasticity 296&lt;p&gt;8.1.3 Algorithmic aspects 297&lt;p&gt;8.2 Creep models 299&lt;p&gt;8.3 Visco-plasticity 301&lt;p&gt;8.3.1 One-dimensional visco-plasticity 302&lt;p&gt;8.3.2 Integration of the rate equations 303&lt;p&gt;8.3.3 Perzyna visco-plasticity 304&lt;p&gt;8.3.4 Duvaut-Lions visco-plasticity 306&lt;p&gt;8.3.5 Consistency model 308&lt;p&gt;8.3.6 Propagative or dynamic instabilities 310&lt;p&gt;Bibliography 315&lt;p&gt;&lt;b&gt;Part Three Structural Elements 317&lt;/b&gt;&lt;p&gt;&lt;b&gt;9 Beams and arches 319&lt;/b&gt;&lt;p&gt;9.1 A shallow arch 319&lt;p&gt;9.1.1 Kirchhoff formulation 319&lt;p&gt;9.1.2 Including shear deformation: Timoshenko beam 326&lt;p&gt;9.2 PYFEM: A Kirchhoff beam element 329&lt;p&gt;9.3 Corotational elements 333&lt;p&gt;9.3.1 Kirchhoff theory 333&lt;p&gt;9.3.2 Timoshenko beam theory 337&lt;p&gt;9.4 An isoparametric degenerate continuum 2D beam element 339&lt;p&gt;9.5 An isoparametric degenerate continuum 3D beam element 344&lt;p&gt;Bibliography 352&lt;p&gt;&lt;b&gt;10 Plates and shells 355&lt;/b&gt;&lt;p&gt;4 Contents&lt;p&gt;10.1 Shallow-shell formulations 356&lt;p&gt;10.2 An isoparametric degenerate continuum shell element 363&lt;p&gt;10.3 Solid-like shell elements 368&lt;p&gt;10.4 Shell plasticity: Ilyushin&amp;#8217;s criterion 369&lt;p&gt;Bibliography 373&lt;p&gt;&lt;b&gt;Part Four Large Strains 375&lt;/b&gt;&lt;p&gt;&lt;b&gt;11 Hyperelasticity 377&lt;/b&gt;&lt;p&gt;11.1 More continuum mechanics 377&lt;p&gt;11.1.1 Momentum balance and stress tensors 377&lt;p&gt;11.1.2 Objective stress rates 380&lt;p&gt;11.1.3 Principal stretches and invariants 384&lt;p&gt;11.2 Strain-energy functions 386&lt;p&gt;11.2.1 Incompressibility and near-incompressibility 388&lt;p&gt;11.2.2 Strain energy as a function of stretch invariants 390&lt;p&gt;11.2.3 Strain energy as a function of principal stretches 394&lt;p&gt;11.2.4 Logarithmic extension of linear elasticity: Hencky model 398&lt;p&gt;11.3 Element technology 400&lt;p&gt;11.3.1 u/p formulation 401&lt;p&gt;11.3.2 Enhanced Assumed Strain elements 404&lt;p&gt;11.3.3 F-bar approach 406&lt;p&gt;11.3.4 Corotational approach 407&lt;p&gt;Bibliography 409&lt;p&gt;&lt;b&gt;12 Large-strain elastoplasticity 411&lt;/b&gt;&lt;p&gt;12.1 Eulerian formulations 412&lt;p&gt;12.2 Multiplicative elastoplasticity 417&lt;p&gt;12.3 Multiplicative elastoplasticity &lt;i&gt;vs&lt;/i&gt; rate formulations 421&lt;p&gt;12.4 Integration of the rate equations 424&lt;p&gt;12.5 Exponential return-mapping algorithms 428&lt;p&gt;Bibliography 432&lt;p&gt;&lt;b&gt;Part Five Advanced Discretisation Concepts 435&lt;/b&gt;&lt;p&gt;&lt;b&gt;13 Interfaces and discontinuities 437&lt;/b&gt;&lt;p&gt;13.1 Interface elements 437&lt;p&gt;13.2 Discontinuous Galerkin methods 446&lt;p&gt;Bibliography 450&lt;p&gt;&lt;b&gt;14 Meshless and partition-of-unity methods 451&lt;/b&gt;&lt;p&gt;14.1 Meshless methods 452&lt;p&gt;14.1.1 The element-free Galerkin method 452&lt;p&gt;14.1.2 Application to fracture 456&lt;p&gt;14.1.3 Higher-order damage mechanics 458&lt;p&gt;Contents 5&lt;p&gt;14.1.4 Volumetric locking 460&lt;p&gt;14.2 Partition-of-unity approaches 461&lt;p&gt;14.2.1 Application to fracture 465&lt;p&gt;14.2.2 Extension to large deformations 470&lt;p&gt;14.2.3 Dynamic fracture 476&lt;p&gt;14.2.4 Weak discontinuities 479&lt;p&gt;Bibliography 480&lt;p&gt;&lt;b&gt;15 Isogeometric finite element analysis 483&lt;/b&gt;&lt;p&gt;15.1 Basis functions in computer aided geometric design 483&lt;p&gt;15.1.1 Univariate B-splines 484&lt;p&gt;15.1.2 Univariate non-uniform rational B-splines 487&lt;p&gt;15.1.3 Multivariate B-splines and NURBS patches 488&lt;p&gt;15.1.4 T-splines 490&lt;p&gt;15.2 Isogeometric finite elements 493&lt;p&gt;15.2.1 B&amp;#180;ezier element representation 493&lt;p&gt;15.2.2 B&amp;#180;ezier extraction 495&lt;p&gt;15.3 PYFEM: Shape functions for isogeometric analysis 497&lt;p&gt;15.4 Isogeometric analysis in non-linear solid mechanics 500&lt;p&gt;15.4.1 Design-through-analysis of shell structures 500&lt;p&gt;15.4.2 Higher-order damage models 505&lt;p&gt;15.4.3 Cohesive-zone models 510&lt;p&gt;Bibliography 518</Text>
+        </OtherText>
+        <OtherText>
+            <TextTypeCode>18</TextTypeCode>
+            <TextFormat>02</TextFormat>
+            <Text>&lt;p&gt;Built upon the two original books by Mike Crisfield and their own lecture notes, renowned scientist Ren&amp;eacute; de Borst and his team offer a thoroughly updated yet condensed edition that retains and builds upon the excellent reputation and appeal amongst students and engineers alike for which Crisfield&amp;rsquo;s first edition is acclaimed.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Together with numerous additions and updates, the new authors have retained the core content of the original publication, while bringing an improved focus on new developments and ideas. This edition offers the latest insights in non-linear finite element technology, including non-linear solution strategies, computational plasticity, damage mechanics, time-dependent effects, hyperelasticity and large-strain elasto-plasticity.&amp;nbsp;&lt;/p&gt;&lt;p&gt;The authors&amp;rsquo; integrated and consistent style and unrivalled engineering approach assures this book&amp;rsquo;s unique position within the computational mechanics literature.&lt;/p&gt;&lt;p&gt;&amp;nbsp;Key features:&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Combines the two previous volumes into one heavily revised text with obsolete material removed, an improved layout and updated references and notations&lt;/li&gt;&lt;li&gt;Extensive new material on more recent developments in computational mechanics&lt;/li&gt;&lt;li&gt;Easily readable, engineering oriented, with no more details in the main text than necessary to understand the concepts.&lt;/li&gt;&lt;li&gt;Pseudo-code throughout makes the link between theory and algorithms, and the actual implementation.&lt;/li&gt;&lt;li&gt;Accompanied by a website (www.wiley.com/go/deborst) with a Python code, based on the pseudo-code within the book and suitable for solving small-size problems.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;i&gt;Non-linear Finite Element Analysis of Solids and Structures, 2nd&lt;/i&gt;&lt;i&gt;Edition&lt;/i&gt; is an essential reference for practising engineers and researchers that can also be used as a text for undergraduate and graduate students within computational mechanics.&lt;/p&gt;</Text>
+        </OtherText>
+        <MediaFile>
+            <MediaFileTypeCode>04</MediaFileTypeCode>
+            <MediaFileFormatCode>03</MediaFileFormatCode>
+            <MediaFileLinkTypeCode>01</MediaFileLinkTypeCode>
+            <MediaFileLink>http://catalogimages.wiley.com/images/db/jimages/9780470666449.jpg</MediaFileLink>
+        </MediaFile>
+        <ProductWebsite>
+            <WebsiteRole>02</WebsiteRole>
+            <ProductWebsiteLink>http://www.wiley.com/remtitle.cgi?isbn=1118376005</ProductWebsiteLink>
+        </ProductWebsite>
+        <Imprint>
+            <NameCodeType>02</NameCodeType>
+            <NameCodeTypeName>Wiley Imprint Code List</NameCodeTypeName>
+            <NameCodeValue>JW</NameCodeValue>
+            <ImprintName>Wiley</ImprintName>
+        </Imprint>
+        <Publisher>
+            <PublishingRole>01</PublishingRole>
+            <PublisherName>Wiley</PublisherName>
+            <Website>
+                <WebsiteRole>18</WebsiteRole>
+                <WebsiteLink>http://www.wiley.com</WebsiteLink>
+            </Website>
+        </Publisher>
+        <CountryOfPublication>GB</CountryOfPublication>
+        <PublishingStatus>04</PublishingStatus>
+        <PublicationDate>20120725</PublicationDate>
+        <CopyrightYear>2012</CopyrightYear>
+        <SalesRights>
+            <SalesRightsType>02</SalesRightsType>
+            <RightsCountry>AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW</RightsCountry>
+        </SalesRights>
+        <NotForSale>
+            <RightsCountry>FR</RightsCountry>
+        </NotForSale>
+        <RelatedProduct>
+            <RelationCode>13</RelationCode>
+            <ProductIdentifier>
+                <ProductIDType>15</ProductIDType>
+                <IDValue>9780470666449</IDValue>
+            </ProductIdentifier>
+        </RelatedProduct>
+        <SupplyDetail>
+            <SupplierSAN>2002272</SupplierSAN>
+            <SupplierName>Wiley</SupplierName>
+            <TelephoneNumber>800-225-5945</TelephoneNumber>
+            <FaxNumber>732-302-2370</FaxNumber>
+            <EmailAddress>custserv@wiley.com</EmailAddress>
+            <ReturnsCodeType>02</ReturnsCodeType>
+            <ReturnsCode>C</ReturnsCode>
+            <AvailabilityCode>IP</AvailabilityCode>
+            <ProductAvailability>21</ProductAvailability>
+            <Stock>
+                <LocationIdentifier>
+                    <LocationIDType>02</LocationIDType>
+                    <IDTypeName>69</IDTypeName>
+                    <IDValue>3</IDValue>
+                </LocationIdentifier>
+                <OnHand>0000000</OnHand>
+            </Stock>
+            <PackQuantity>0</PackQuantity>
+            <Price>
+                <PriceTypeCode>01</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>113.95</PriceAmount>
+                <CurrencyCode>USD</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>01</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>82.50</PriceAmount>
+                <CurrencyCode>EUR</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>01</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>68.95</PriceAmount>
+                <CurrencyCode>GBP</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>42</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>109.99</PriceAmount>
+                <CurrencyCode>AUD</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>42</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>59.99</PriceAmount>
+                <CurrencyCode>GBP</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>42</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>124.99</PriceAmount>
+                <CurrencyCode>NZD</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>04</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>69.99</PriceAmount>
+                <CurrencyCode>EUR</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>42</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>69.99</PriceAmount>
+                <CurrencyCode>EUR</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>41</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>84.99</PriceAmount>
+                <CurrencyCode>USD</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>42</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>113.99</PriceAmount>
+                <CurrencyCode>SGD</CurrencyCode>
+            </Price>
+            <Price>
+                <PriceTypeCode>41</PriceTypeCode>
+                <DiscountCoded>
+                    <DiscountCodeType>02</DiscountCodeType>
+                    <DiscountCode>P</DiscountCode>
+                </DiscountCoded>
+                <PriceAmount>94.99</PriceAmount>
+                <CurrencyCode>CAD</CurrencyCode>
+            </Price>
+        </SupplyDetail>
+    </Product>
+</ONIXMessage>

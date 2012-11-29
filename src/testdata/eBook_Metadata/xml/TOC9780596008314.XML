@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tablecontents PUBLIC "-//Dawson Books//Table of Contents XML DTD v1.0//EN" "http://www.dawsonbooks.co.uk/era/dawson-TOC.dtd">
+<tablecontents>
+<eisbn13>9780596008314</eisbn13>
+<copyright>Copyright &#x00A9; 2003 O&#x0027;Reilly Media, Inc</copyright>
+<initial-page>3</initial-page>
+<toc>
+<toc-item logical-page-no="v" physical-page-no="5" lang="eng">
+<head-group>
+<enumerator/>
+<head>Contents</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="ix" physical-page-no="9" lang="eng">
+<head-group>
+<enumerator/>
+<head>Foreword</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="xi" physical-page-no="11" lang="eng">
+<head-group>
+<enumerator/>
+<head>Preface</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="1" physical-page-no="17" lang="eng">
+<head-group>
+<enumerator>Part I</enumerator>
+<head>Why XP?</head>
+</head-group>
+<toc-item logical-page-no="2" physical-page-no="18" lang="eng">
+<head-group>
+<enumerator/>
+<head>Who Cares About Process, Anyway?</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="3" physical-page-no="19" lang="eng">
+<head-group>
+<enumerator/>
+<head>The XP Equation</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="7" physical-page-no="23" lang="eng">
+<head-group>
+<enumerator/>
+<head>XP Values</head>
+</head-group>
+<toc-item logical-page-no="7" physical-page-no="23" lang="eng">
+<head-group>
+<enumerator/>
+<head>Communication</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="8" physical-page-no="24" lang="eng">
+<head-group>
+<enumerator/>
+<head>Feedback</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="10" physical-page-no="26" lang="eng">
+<head-group>
+<enumerator/>
+<head>Simplicity</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="10" physical-page-no="26" lang="eng">
+<head-group>
+<enumerator/>
+<head>Courage</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="10" physical-page-no="26" lang="eng">
+<head-group>
+<enumerator/>
+<head>Assuming Sufficiency</head>
+</head-group>
+<toc-item logical-page-no="11" physical-page-no="27" lang="eng">
+<head-group>
+<enumerator/>
+<head>Sufficient Time</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="11" physical-page-no="27" lang="eng">
+<head-group>
+<enumerator/>
+<head>Sufficient Resources</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="12" physical-page-no="28" lang="eng">
+<head-group>
+<enumerator/>
+<head>Constant Cost of Change</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="13" physical-page-no="29" lang="eng">
+<head-group>
+<enumerator/>
+<head>Developer Effectiveness</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="14" physical-page-no="30" lang="eng">
+<head-group>
+<enumerator/>
+<head>Freedom to Experiment</head>
+</head-group>
+</toc-item>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="15" physical-page-no="31" lang="eng">
+<head-group>
+<enumerator>Part II</enumerator>
+<head>Extreme Programming Practices</head>
+</head-group>
+<toc-item logical-page-no="16" physical-page-no="32" lang="eng">
+<head-group>
+<enumerator/>
+<head>Coding Practices</head>
+</head-group>
+<toc-item logical-page-no="16" physical-page-no="32" lang="eng">
+<head-group>
+<enumerator>Coding Practice 1</enumerator>
+<head>Code and Design Simply</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="18" physical-page-no="34" lang="eng">
+<head-group>
+<enumerator>Coding Practice 2</enumerator>
+<head>Refactor Mercilessly</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="21" physical-page-no="37" lang="eng">
+<head-group>
+<enumerator>Coding Practice 3</enumerator>
+<head>Develop Coding Standards</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="23" physical-page-no="39" lang="eng">
+<head-group>
+<enumerator>Coding Practice 4</enumerator>
+<head>Develop a Common Vocabulary</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="25" physical-page-no="41" lang="eng">
+<head-group>
+<enumerator/>
+<head>Developer Practices</head>
+</head-group>
+<toc-item logical-page-no="25" physical-page-no="41" lang="eng">
+<head-group>
+<enumerator>Developer Practice 1</enumerator>
+<head>Adopt Test-Driven Development</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="29" physical-page-no="45" lang="eng">
+<head-group>
+<enumerator>Developer Practice 2</enumerator>
+<head>Practice Pair Programming</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="32" physical-page-no="48" lang="eng">
+<head-group>
+<enumerator>Developer Practice 3</enumerator>
+<head>Adopt Collective Code Ownership</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="34" physical-page-no="50" lang="eng">
+<head-group>
+<enumerator>Developer Practice 4</enumerator>
+<head>Integrate Continually</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="36" physical-page-no="52" lang="eng">
+<head-group>
+<enumerator/>
+<head>Business Practices</head>
+</head-group>
+<toc-item logical-page-no="36" physical-page-no="52" lang="eng">
+<head-group>
+<enumerator>Business Practice 1</enumerator>
+<head>Add a Customer to the Team</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="38" physical-page-no="54" lang="eng">
+<head-group>
+<enumerator>Business Practice 2</enumerator>
+<head>Play the Planning Game</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="41" physical-page-no="57" lang="eng">
+<head-group>
+<enumerator>Business Practice 3</enumerator>
+<head>Release Regularly</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="43" physical-page-no="59" lang="eng">
+<head-group>
+<enumerator>Business Practice 4</enumerator>
+<head>Work at a Sustainable Pace</head>
+</head-group>
+</toc-item>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="45" physical-page-no="61" lang="eng">
+<head-group>
+<enumerator>Part III</enumerator>
+<head>XP Events</head>
+</head-group>
+<toc-item logical-page-no="45" physical-page-no="61" lang="eng">
+<head-group>
+<enumerator/>
+<head>Iteration Planning</head>
+</head-group>
+<toc-item logical-page-no="45" physical-page-no="61" lang="eng">
+<head-group>
+<enumerator/>
+<head>Stories and Tasks</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="46" physical-page-no="62" lang="eng">
+<head-group>
+<enumerator/>
+<head>Estimates and Schedules</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="49" physical-page-no="65" lang="eng">
+<head-group>
+<enumerator/>
+<head>The First Iteration</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="50" physical-page-no="66" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Iteration</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="51" physical-page-no="67" lang="eng">
+<head-group>
+<enumerator/>
+<head>Releasing</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="53" physical-page-no="69" lang="eng">
+<head-group>
+<enumerator>Part IV</enumerator>
+<head>Extreme Programming Artifacts</head>
+</head-group>
+<toc-item logical-page-no="53" physical-page-no="69" lang="eng">
+<head-group>
+<enumerator/>
+<head>Story Cards</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="55" physical-page-no="71" lang="eng">
+<head-group>
+<enumerator/>
+<head>Task Cards</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="56" physical-page-no="72" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Bullpen</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="59" physical-page-no="75" lang="eng">
+<head-group>
+<enumerator>Part V</enumerator>
+<head>Roles in Extreme Programming</head>
+</head-group>
+<toc-item logical-page-no="59" physical-page-no="75" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Customer</head>
+</head-group>
+<toc-item logical-page-no="60" physical-page-no="76" lang="eng">
+<head-group>
+<enumerator/>
+<head>Customer Rights</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="61" physical-page-no="77" lang="eng">
+<head-group>
+<enumerator/>
+<head>Customer Responsibilities</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="62" physical-page-no="78" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Developer</head>
+</head-group>
+<toc-item logical-page-no="62" physical-page-no="78" lang="eng">
+<head-group>
+<enumerator/>
+<head>Developer Rights</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="63" physical-page-no="79" lang="eng">
+<head-group>
+<enumerator/>
+<head>Developer Responsibilities</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="63" physical-page-no="79" lang="eng">
+<head-group>
+<enumerator/>
+<head>Supplementary Roles</head>
+</head-group>
+<toc-item logical-page-no="63" physical-page-no="79" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Tracker</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="64" physical-page-no="80" lang="eng">
+<head-group>
+<enumerator/>
+<head>The Coach</head>
+</head-group>
+</toc-item>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="65" physical-page-no="81" lang="eng">
+<head-group>
+<enumerator>Part VI</enumerator>
+<head>Coding, XP Style</head>
+</head-group>
+<toc-item logical-page-no="65" physical-page-no="81" lang="eng">
+<head-group>
+<enumerator/>
+<head>Do the Simplest Thing That Could Possibly Work</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="67" physical-page-no="83" lang="eng">
+<head-group>
+<enumerator/>
+<head>You Aren&#x0027;t Gonna Need It</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="69" physical-page-no="85" lang="eng">
+<head-group>
+<enumerator/>
+<head>Once and Only Once</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="71" physical-page-no="87" lang="eng">
+<head-group>
+<enumerator>Part VII</enumerator>
+<head>Adopting XP</head>
+</head-group>
+<toc-item logical-page-no="72" physical-page-no="88" lang="eng">
+<head-group>
+<enumerator/>
+<head>Before You Start</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="72" physical-page-no="88" lang="eng">
+<head-group>
+<enumerator/>
+<head>Eliminating Fear and Working Together</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="73" physical-page-no="89" lang="eng">
+<head-group>
+<enumerator/>
+<head>Starting Feedback</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="76" physical-page-no="92" lang="eng">
+<head-group>
+<enumerator/>
+<head>Including Managers and Customers</head>
+</head-group>
+</toc-item>
+<toc-item logical-page-no="78" physical-page-no="94" lang="eng">
+<head-group>
+<enumerator/>
+<head>Now That You&#x0027;re Extreme</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="79" physical-page-no="95" lang="eng">
+<head-group>
+<enumerator>Part VIII</enumerator>
+<head>Further Resources</head>
+</head-group>
+<toc-item logical-page-no="79" physical-page-no="95" lang="eng">
+<head-group>
+<enumerator/>
+<head>XP Resources</head>
+</head-group>
+</toc-item>
+</toc-item>
+<toc-item logical-page-no="83" physical-page-no="99" lang="eng">
+<head-group>
+<enumerator/>
+<head>Index</head>
+</head-group>
+</toc-item>
+</toc>
+</tablecontents>

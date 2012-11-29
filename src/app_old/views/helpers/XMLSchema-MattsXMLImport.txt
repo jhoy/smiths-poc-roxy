@@ -1,0 +1,126 @@
+
+
+Initial Upload
+1) Save Zip file (in 'imported-unprocessed' collection)
+2) Unpack individual documents and save them (in 'imported-unprocessed-file' collection)
+3) Prepare report (in 'import-reports' collection (see status meta data element))
+ - link related files (first part of name)
+ - assume XML file is meta data
+ - validate xml file as a) valid b) matches schema
+ - Later: Perform non-ONIX actions: attempt to map known publisher-specific elements to desired ONIX elements
+ - XML EXAMPLE 1: Import Report
+4) Display report (some green ticks)
+5) Allow edit of individual file groups
+ - provide missing meta data
+ - show available XML file data (generic XML information) in a tree like format (indented to start with) -> Allows select - copy - paste
+ - Later: Drag and drop to fill
+ - Later: Allow for saving of mappings with a name in this screen (drag and drop, or drop down field list)
+ - XML EXAMPLE 2: Saved mapping document (in 'import-mappings' collection)
+6) Process imported files and make them available (all green ticks) (process docs by isys and place in to 'import-processed' collection after associating meta data)
+ - generates somfile__pdf__isys.xml for a source pdf, for example
+ - ONIX30 compliant meta data attached to this document's properties fragment
+ - Also attach a <i:import-report>/reports/12345.xml</i:import-report> and <i:import-report-group>1234</i:import-report-group> element within properties fragment
+ - Also transform all isys xhtml/head/meta name="" value="" elements in to their own XML elements and attach to doc's properties fragment for easy searching
+
+NB Providing link between document types in SEPARATE document, not SAME document
+ Reasons: 1) Easier to process 2) Results for search are at doc level 3) Can show both types in results, with link between them
+ 
+Example 1: Import Report
+URI: /reports/12345.xml
+<i:report xmlns:i="http://marklogic.com/roxy/importer">
+ <i:meta>
+  <i:source-archive>
+   <i:formatmime>application/zip</i:formatmime>
+   <i:uri>/zips/myzip.zip</i:uri>
+   <i:files>
+    <i:file>
+     <i:name>somefile.xml</i:name>
+     <i:archive-path>/zip/path/somefile.xml</i:archive-path>
+     <i:uri>/somezip/somefile.xml</i:uri>
+    </i:file>
+    ...
+   </i:files>
+  </i:source-archive>
+  <i:import-date>Some W3C date here</i:import-date>
+  <i:import-user>admin</i:import-user>
+  <i:status>unprocessed</i:status>
+ </i:meta>
+ 
+ <i:use-meta-mappings>
+  <i:use-meta-mapping order="1">Default-ONIX3.0</use-meta-mapping>
+  <i:use-meta-mapping order="2">/mappings/wiley-to-onix.xml</i:use-meta-mapping>
+ </i:use-meta-mappings>
+ 
+ 
+ <i:groups>
+  <i:group id="1234">
+   <i:metafiles>
+    <i:metafile>
+     <i:import-error>Some highly descriptive error here</i:import-error> <!-- Import error within here, as XML from error report -->
+     <i:formatns>ONIX3.0</i:formatns>
+     <i:uri>/somezip/somefile.xml</i:uri>
+     <i:generated-output> <!-- onix guessed/imported 3.0 xml goes here --> </i:generated-output>
+    </i:metafile>
+   </i:metafiles>
+   <i:contentfiles>
+    <i:contentfile>
+     <i:formatmime>application/epub</i:formatmime>
+     <i:uri>/somezip/somefile.epub</i:uri>
+     <i:output-isys-uri>/completed/somefile__epub__isys.xml</i:output-isys-uri> <!-- this is the output from ISYS that we index for search results. One per doc file. --> 
+    </i:content-file>
+    <i:contentfile>
+     <i:formatmime>application/pdf</i:formatmime>
+     <i:uri>/somezip/somefile.pdf</i:uri>
+     <i:output-isys-uri>/completed/somefile__pdf__isys.xml</i:output-isys-uri> <!-- this is the output from ISYS that we index for search results. One per doc file. -->
+    </i:content-file>
+   </i:contentfiles>
+   ...
+  </i:group>
+  ...
+ </i:groups>
+</i:report>
+
+
+Example 2: Mapping file
+
+URI: /mappings/wiley-to-onix.xml
+<i:mapping-file xmlns:i="http://marklogic.com/roxy/importer">
+ <i:name>Wiley submission mapping</i:name>
+ 
+ <i:applies-to>
+  <!-- we could put rules in here if we wanted a CPF pipeline to automatically handle the zip receipt. E.g. from web service -->
+ </i:applies-to>
+ 
+ <i:source-name>Unknown</i:source-name>
+ <i:target-name>ONIX3.0</i:target-name>
+ 
+ <i:mappings>
+  <i:mapping>
+   <i:source-xpath></i:source-xpath>
+   <i:target-xpath></i:target-xpath>
+  </i:mapping>
+  ...
+ </i:mappings>
+</i:mapping-file>
+
+
+
+
+Input documents:
+  /somezip/myzip.zip
+
+Intermediary documents:
+  /somezip/somefile.pdf  - these are stored so user can download original in each format.
+  /somezip/somefile.epub
+  /somezip/somefile.xml  - stored so a mapping can be applied to it to generate onix30 compliant meta data
+  
+  /reports/12345.xml -> import report linking all the above, and used to generate all those below
+    (generated onix within report file)
+
+Output document:
+  somefile__pdf__isys.xml -> properties fragment to contain <i:onix30 xmlns:i="http://marklogic.com/roxy/importer"> ... </i:onix30> element. 
+                             This makes it instantly searchable using properties search
+                             Also to be placed in to 'import-processed' collection -> Limit your searches to this collection!
+                             
+  
+

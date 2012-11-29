@@ -1,0 +1,10 @@
+<mappings>
+	<mapping alias="Author">
+		<from>(/ONIXMessage/Product/Contributor/PersonName)[1]</from>
+		<to>(/ONIXMessage/Product/Contributor/PersonName)[1]</to>
+	</mapping>
+	<mapping alias="Title">
+		<from>(/ONIXMessage/Product/DescriptiveDetail/TitleDetail/TitleElement/TitleText)[1]</from>
+		<to>(/ONIXMessage/Product/DescriptiveDetail/TitleDetail/TitleElement/TitleText)[1]</to>
+	</mapping>
+</mappings>
